@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="activity_bg">#fafafa</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="llbuybackground">#7D9696</color>
+
+
+    <color name="background_title">#ffcc2a</color>
+    <color name="background_fragment">#eaeaea</color>
+    <!--半透明-->
+    <color name="translucent">#80000000</color>
+    <!-- 注册-->
+    <color name="login_llbackground">#FaFaFa</color>
+    <color name="Et_hintText">#666666</color>
+    <color name="Tv_text">#333333</color>
+    <color name="tv_service_code">#1A7B90</color>
+    <color name="tv_text_style">#666666</color>
+    <color name="tv_adr">#999999</color>
+
+    <color name="black">#000000</color>
+    <color name="green">#0BBC2E</color>
+    <color name="light_black">#333333</color>
+    <color name="black666">#666666</color>
+    <color name="black999">#999999</color>
+    <color name="red">#FD6365</color>
+    <color name="yellow">#FFBA00</color>
+    <color name="gray">#CACACA</color>
+    <color name="gray_line">#EAEAEA</color>
+    <color name="gray_task">#F5F5F5</color>
+    <color name="color_FD6365">#FD6365</color>
+    <color name="color_FF5C5D">#FF5C5D</color>
+    <color name="color_FFBA00">#FFBA00</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_c9">#C9C9C9</color>
+    <color name="color_fc">#FCFCFC</color>
+    <color name="color_e2">#E2E2E2</color>
+    <color name="Detected">#EEC365</color>
+    <color name="Transformed">#4279EE</color>
+    <color name="transparent_gray">#D0000000</color>
+    <color name="date_adjust_week">#FFCC2B</color>
+    <color name="date_adjust">#F6E7A6</color>
+
+</resources>

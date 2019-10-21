@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitys.WelcomeActivity">
+    <Button
+        android:id="@+id/welcome_pass_btn"
+        android:layout_width="36dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_button_pass"
+        android:text="跳过"
+        android:textColor="@color/background_title"
+        android:textSize="12sp"
+        />
+
+    <ImageView
+        android:id="@+id/welcome_start_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/defaultpage"
+        tools:ignore="ContentDescription"/>
+</com.zhy.autolayout.AutoRelativeLayout>

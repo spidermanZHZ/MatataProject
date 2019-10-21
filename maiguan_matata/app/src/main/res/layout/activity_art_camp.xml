@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".homepage.activitys.ArtCampActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:fitsSystemWindows="true"
+            >
+            <com.hjq.bar.TitleBar
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@color/white"
+                app:title="@string/art_camp"
+                app:leftColor="@color/Et_hintText"
+                app:titleColor="#000000"
+                app:titleSize="17sp"
+                app:backButton="true"
+                app:lineColor="@color/white"
+
+                />
+        </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_artcamp_activity"
+                android:layout_width="345dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@color/activity_bg" />
+
+
+
+</com.zhy.autolayout.AutoLinearLayout>

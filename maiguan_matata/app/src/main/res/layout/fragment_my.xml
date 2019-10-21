@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        >
+        <com.hjq.bar.TitleBar
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/background_title"
+            app:title="@string/my"
+            app:titleColor="#000000"
+            app:titleSize="17sp"
+            app:backButton="false"
+            app:lineColor="@color/background_title"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+
+            android:textSize="14sp"
+            android:textColor="@color/Et_hintText"
+            android:text="@string/art_buy_type"
+            />
+        <TextView
+            android:id="@+id/tv_art_buy_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:textSize="13sp"
+            android:textColor="@color/Et_hintText"
+            />
+    </LinearLayout>
+
+</com.zhy.autolayout.AutoLinearLayout>

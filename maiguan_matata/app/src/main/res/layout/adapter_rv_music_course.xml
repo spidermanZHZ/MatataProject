@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+    <ImageView
+        android:id="@+id/adapter_homepage_teacher_iv"
+        android:layout_width="160dp"
+        android:layout_height="189dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:id="@+id/adapter_homepage_teacher_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="加载中"
+        android:layout_gravity="center"
+        android:textColor="@color/Tv_text"
+        android:textSize="14sp"
+        />
+    <TextView
+        android:id="@+id/adapter_homepage_teacher_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="加载中"
+        android:layout_gravity="center"
+        android:textColor="@color/Et_hintText"
+        android:textSize="12sp"
+        />
+</com.zhy.autolayout.AutoLinearLayout>

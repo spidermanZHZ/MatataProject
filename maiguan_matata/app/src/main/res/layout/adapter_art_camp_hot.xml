@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="345dp"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+
+    >
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="5dp"
+    android:background="@color/activity_bg"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="@color/white"
+        />
+    <ImageView
+    android:id="@+id/iv_art_camp_hot"
+    android:contentDescription="@string/art_camp"
+    android:layout_width="329dp"
+    android:layout_height="190dp"
+    android:layout_gravity="center"
+    android:scaleType="fitXY"
+    android:src="@mipmap/ic_launcher"
+    />
+    <TextView
+        android:id="@+id/tv_art_camp_hot_title"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:singleLine = "false"
+        android:textColor="@color/Tv_text"
+        android:textSize="15sp"
+        />
+    <TextView
+        android:id="@+id/tv_art_camp_hot_description"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:singleLine = "false"
+        android:maxLines="3"
+        android:textColor="@color/tv_text_style"
+        android:textSize="14sp"
+        />
+    <TextView
+        android:id="@+id/tv_art_camp_hot_price"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:singleLine = "false"
+        android:textColor="@color/tv_service_code"
+        android:textSize="14sp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="@color/white"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/activity_bg"
+        />
+
+</com.zhy.autolayout.AutoLinearLayout>

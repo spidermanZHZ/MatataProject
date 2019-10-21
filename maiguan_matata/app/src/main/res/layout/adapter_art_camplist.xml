@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+<View
+    android:layout_width="8dp"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    />
+<ImageView
+    android:contentDescription="@string/art_camp"
+    android:id="@+id/iv_art_camp_list"
+    android:layout_width="150dp"
+    android:layout_height="100dp"
+    android:src="@mipmap/ic_launcher"
+    android:scaleType="fitXY"
+    android:layout_gravity="center"
+    />
+    <View
+        android:layout_width="7dp"
+        android:layout_height="match_parent"
+        android:background="@color/activity_bg"
+        />
+</com.zhy.autolayout.AutoLinearLayout>

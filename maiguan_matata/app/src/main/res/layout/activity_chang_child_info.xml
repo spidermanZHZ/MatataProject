@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".growup.activity.ChangChildInfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+        android:background="@color/background_title"
+        >
+    <com.hjq.bar.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/background_title"
+        app:title="@string/change_child_info"
+        app:titleColor="#000000"
+        app:titleSize="17sp"
+        app:lineColor="@color/background_title"
+        />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/activity_bg"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/change_info_bg"
+            android:orientation="vertical"
+            >
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:background="@mipmap/change_info_bg2"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/change_child_head"
+                android:layout_width="112dp"
+                android:layout_height="112dp"
+                android:layout_gravity="center"
+                android:src="@mipmap/change_info_iv"
+                />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="21dp"
+                        android:background="@color/activity_bg"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:includeFontPadding="false"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/light_black"
+                            android:text="@string/change_child_name"
+                            android:textSize="15sp"
+
+                            />
+                        <EditText
+                            android:id="@+id/change_child_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="43dp"
+                            android:layout_gravity="center"
+                            android:hint="@string/change_child_et_name"
+                            android:lines="1"
+                            android:maxLines="1"
+                            android:textSize="14sp"
+                            android:textColor="@color/Et_hintText"
+                            android:background="@drawable/login_linearlayout_style"
+                            />
+                    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="28dp"
+                android:background="@color/activity_bg"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/light_black"
+                    android:text="@string/change_child_date"
+                    android:textSize="15sp"
+
+                    />
+       <DatePicker
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="14dp"
+           />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="28dp"
+                android:background="@color/activity_bg"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:includeFontPadding="false"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/light_black"
+                    android:text="@string/change_child_sign"
+                    android:textSize="15sp"
+
+                    />
+                <EditText
+                    android:id="@+id/change_child_sign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_gravity="center"
+                    android:hint="@string/change_child_et_sign"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:textSize="14sp"
+                    android:textColor="@color/Et_hintText"
+                    android:background="@drawable/login_linearlayout_style"
+                    />
+            </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="28dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:includeFontPadding="false"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/light_black"
+                            android:text="@string/change_child_sex"
+                            android:textSize="15sp"
+                            />
+
+                    </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/adjust_btn_confim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="71dp"
+            android:layout_marginRight="71dp"
+            android:layout_marginTop="70dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/login_btn_style"
+            android:text="@string/adjust_study_bt"
+            android:textAllCaps="false"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+
+</com.zhy.autolayout.AutoLinearLayout>

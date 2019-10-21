@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_title"
+    tools:context=".growup.activity.StudyAdjustActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        >
+        <com.hjq.bar.TitleBar
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/background_title"
+            app:title="@string/adjust_title"
+            app:titleColor="#000000"
+            app:titleSize="17sp"
+            app:lineColor="@color/background_title"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/cornerbg_white_single"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="69dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:includeFontPadding="false"
+                android:text="@string/adjust_study_day"
+                android:textColor="@color/light_black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_adjust_week_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:textColor="@color/light_black"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/adjust_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="69dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:includeFontPadding="false"
+                android:text="@string/adjust_study_time"
+                android:textColor="@color/light_black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_adjust_day_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:textColor="@color/light_black"
+                android:textSize="17sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:textColor="@color/light_black"
+                android:text="@string/up_stu_second"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:max="100"
+            android:progress="0" />
+
+        <Button
+            android:id="@+id/adjust_btn_confim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="71dp"
+            android:layout_marginRight="71dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/login_btn_style"
+            android:text="@string/adjust_study_bt"
+            android:textAllCaps="false"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+
+
+</com.zhy.autolayout.AutoLinearLayout>

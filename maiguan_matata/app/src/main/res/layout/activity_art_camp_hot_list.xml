@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage.activitys.ArtCampAtActivity">
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        android:layout_alignParentTop="true"
+        >
+        <com.hjq.bar.TitleBar
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/white"
+            app:title="@string/atinformation"
+            app:leftColor="@color/Et_hintText"
+            app:titleColor="#000000"
+            app:titleSize="17sp"
+            app:backButton="true"
+            app:lineColor="@color/white"
+
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <recycler.coverflow.RecyclerCoverFlow
+                android:id="@+id/coverflow_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="203dp" />
+
+            <LinearLayout
+                android:layout_width="345dp"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/art_camp_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/tag"
+                    android:textColor="@color/tv_text_style"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/art_camp_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="19dp"
+                    android:text="@string/at_title"
+                    android:textColor="@color/Tv_text"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="13dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="26dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_gravity="center"
+                        android:src="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/art_camp_adr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="@string/at_adr"
+                        android:textColor="@color/tv_adr"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="345dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="17dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/at_plan"
+                    android:textColor="@color/Tv_text"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="17dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="@string/at_time"
+                        android:textColor="@color/tv_text_style"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/art_camp_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tag"
+                        android:textColor="@color/tv_text_style"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="17dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="@string/at_people"
+                        android:textColor="@color/tv_text_style"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/art_camp_people"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/tag"
+                        android:textColor="@color/tv_text_style"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="13dp"
+                    android:layout_marginTop="17dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="@string/at_number"
+                        android:textColor="@color/tv_text_style"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/art_camp_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tag"
+                        android:textColor="@color/tv_text_style"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="17dp"
+                >
+                <WebView
+                    android:id="@+id/art_at_web"
+                    android:layout_width="345dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    />
+                </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+        <TextView
+            android:id="@+id/art_at_price"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="@color/Tv_text"
+            android:text="@string/at_price"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:background="@color/llbuybackground"
+            >
+            <TextView
+                android:id="@+id/art_at_join"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:text="@string/at_join"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</com.zhy.autolayout.AutoRelativeLayout>

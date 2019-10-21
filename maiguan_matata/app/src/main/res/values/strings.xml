@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">马它它</string>
+
+
+    <string name="language_cn">中文</string>
+    <string name="language_en">ENGLISH</string>
+    <string name="language_auto">自动</string>
+    <string name="autolocation">自动定位信息</string>
+    <string name="getmaplocation">获取当前定位地址</string>
+    <string name="getlocation">获取当前位置</string>
+    <string name="nodatas">没有获取到数据，点击页面重新加载</string>
+
+
+    <string name="wait">请稍后</string>
+    <string name="phone_number">请输入手机号</string>
+    <string name="language_test">多语言测试</string>
+    <string name="map_test">地图测试</string>
+    <string name="language_btn">多语言测试按钮</string>
+
+    <!--登录界面 -->
+    <string name="login">账号登录</string>
+    <string name="account">请输入账号</string>
+    <string name="password">请输入密码</string>
+    <string name="login_btn">登录</string>
+    <string name="sign_account">注册新用户</string>
+
+    <string name="retrieve_password">忘记密码</string>
+    <string name="other_login">其他登录方式</string>
+
+    <!--新用户注册-->
+    <string name="sign_title">新用户注册</string>
+    <string name="sign_confimpassword_title">设置密码</string>
+    <string name="sign_number">请输入注册手机号</string>
+    <string name="sign_code">请输入短信验证码</string>
+    <string name="sign_setpassword">请设置6至20位登录密码</string>
+    <string name="sign_confirmpassword">请再次确认登录密码</string>
+    <string name="sign_agree">同意</string>
+    <string name="sign_userservice">《用户服务协议》</string>
+    <string name="sign_signbtn">注册账号</string>
+    <string name="sign_hasaccout">已有账号，立即登录</string>
+    <string name="sign_sendcode">发送验证码</string>
+
+    <!--找回密码页面-->
+    <string name="retrieve_title">找回密码</string>
+    <string name="retrieve_confirmphone">验证手机号码</string>
+    <string name="retrieve_changepassword">设置新密码</string>
+    <string name="retrieve_et_newpassword">请输入你的新密码</string>
+    <string name="retrieve_et_confirmpassword">请再次确认新密码</string>
+    <string name="retrieve_btn_next">下一步</string>
+    <string name="retrieve_btn_changepassword">确认修改</string>
+    <string name="retrieve_et_accountphone">请输入注册手机号</string>
+    <string name="retrieve_et_code">请输入短信验证码</string>
+
+
+    <!-- app主页面-->
+
+    <string name="home_page">首页</string>
+    <string name="grow_up">成长陪伴</string>
+    <string name="art_camp">艺术营地</string>
+    <string name="my">我的</string>
+    <string name="back">返回</string>
+
+    <!-- 首页-->
+    <string name="homepage_location">济南</string>
+    <string name="homepage_music">音乐学院</string>
+    <string name="homepage_course">戏剧学院</string>
+    <string name="homepage_art">艺术营地</string>
+    <string name="homepage_grade">等级报名</string>
+
+    <!--音乐课程-->
+    <string name="music_course">音乐课程</string>
+    <!--艺术营地-->
+    <string name="hot_camp">热门营地</string>
+    <string name="hot_activity">热门活动</string>
+    <string name="atinformation">活动详情</string>
+    <string name="tag">活动属性</string>
+    <string name="at_title">活动主题</string>
+    <string name="at_adr">活动地址</string>
+    <string name="at_plan">活动安排</string>
+    <string name="at_time">活动时间：</string>
+    <string name="at_people">适宜人群：</string>
+    <string name="at_number">每期人数：</string>
+    <string name="at_price">价格待定</string>
+    <string name="at_join">立即参与</string>
+    <string name="at_join_buy">参与活动</string>
+    <string name="at_attribute">请选择活动属性</string>
+    <string name="at_type_people">参与人数</string>
+    <string name="at_date">活动日期</string>
+    <string name="at_bug_num">数量</string>
+    <string name="at_bug_people_info">联系信息</string>
+    <string name="at_bug_people">联系用户:</string>
+    <string name="at_bug_phone_number">联系电话:</string>
+    <string name="art_btn_confirm">确认</string>
+    <string name="art_buy_adapter">\t暂无更多\t</string>
+    <string name="art_bug_vip">会员价：</string>
+    <string name="art_buy_complete">活动支付</string>
+    <string name="art_buy_tip">支付完成后可在我的订单中查看订单信息</string>
+    <string name="art_money">¥</string>
+    <string name="art_buy_no">订单号:</string>
+    <string name="art_buy_money_all">应付金额:</string>
+    <string name="art_buy_type">套餐类型:</string>
+    <string name="art_buy_date">参营日期:</string>
+    <string name="art_buy_people">参与人员:</string>
+    <string name="art_buy_number">购买数量:</string>
+    <string name="art_buy_what">支付方式</string>
+    <string name="art_confirm_buy">确认支付</string>
+
+    <string name="up_stu_change_info">编辑</string>
+    <string name="up_stu_all_time">总学习时间</string>
+    <string name="up_stu_more_time">详情>>></string>
+    <string name="up_stu_second">分钟</string>
+    <string name="up_stu_test_second">练习时间\t(分钟)</string>
+    <string name="up_stu_all_day">线上学习\t(分钟)</string>
+    <string name="up_stu_day">线下学习\t(分钟)</string>
+    <string name="up_stu_plan">周计划</string>
+    <string name="up_stu_adjust">调整>>></string>
+    <string name="up_stu_plan_time">计划学习</string>
+    <string name="up_stu_past_time">已按计划学习</string>
+    <string name="up_stu_course_more">更多>>></string>
+    <string name="up_stu_course">学习中的课程</string>
+    <string name="up_stu_start_test">开始练习</string>
+    <string name="up_stu_time_ture">已完成计划</string>
+    <string name="up_stu_time_false">未完成计划</string>
+
+    <string name="adjust_title">调整学习计划</string>
+    <string name="adjust_study_day">每周学习天数：</string>
+    <string name="adjust_study_time">每周学习时间：</string>
+    <string name="adjust_study_bt">确认调整</string>
+
+    <string name="change_child_info">编辑资料</string>
+    <string name="change_child_name">姓名:</string>
+    <string name="change_child_et_name">请输入学员姓名</string>
+    <string name="change_child_sign">学习宣言:</string>
+    <string name="change_child_et_sign">请输入学习宣言</string>
+    <string name="change_child_date">出生年月:</string>
+    <string name="change_child_sex">性别:</string>
+</resources>
